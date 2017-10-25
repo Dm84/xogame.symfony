@@ -11,7 +11,7 @@ namespace Xo\GameBundle\Abstraction;
 
 interface IRenderer {
 
-	public function RenderTemplate($template, $params);
-	public function MakeUrl($route, $params);
+    public function RenderTemplate($template, $params);
+    public function MakeUrl($route, $params);
 
 }
